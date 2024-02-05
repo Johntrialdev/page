@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    
+    width: 100%;
+    height: 50px;
+    background-color: #1b1b32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    color: antiquewhite;
+    padding: 40px;
+    position: fixed;
+}
+h1{
+    font-size: 50px;
+    color: #112d32;
+}
+h1:hover{
+    text-decoration:  underline;
+    color: gradient(#254e58 20%, #112d32 50%);
+}
+h4{
+    font-size: 30px;
+}
+
+li{
+   
+    max-width: 300px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px;
+    color: aliceblue;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li a:hover{
+    text-decoration: underline;
+    color: #4f4a41;
+}
+nav{
+    margin-right: 40px;
+}
+main{
+    padding-top: 60px;
+}
+button {
+    display: block;
+    margin: 40px auto;
+    width: 40%;
+    padding: 15px;
+    font-size: 23px;
+    background: #d0d0d5;
+    border: 3px solid #3b3b4f;
+}
+
+#welcome-section{
+    width: 100%;
+    height: 500px;
+    background-color: #88bdb8;
+    padding-top: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: flex-start;
+}
+
+
+.works{
+    height: 400px;
+    background-color: #254e58;
+    display: flex;
+    justify-content: center;
+
+}
+
+.project-tile{
+    height: 120px;
+    width: 120px;
+    background-color: #88bdb8;
+    display: block;
+    margin-top: 150px;
+}
+
+.assume{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.contacts{
+    background-color: #88bdb8;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#profile-link{
+    text-decoration: none;
+    color: #1b1b32;
+}
+
+#profile-link:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+@media(width:500px){
+    li{
+   
+        max-width: 100px;
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        padding:0 10px;
+        color: aliceblue;
+        
+    }
+    
+
+}
